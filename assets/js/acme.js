@@ -76,7 +76,7 @@ $(document).ready(function () {
 
 						var orderJSON = {
 							"external_reference": external_reference,
-							"notification_url": "https://gustavomontiel-mp-exam-qr-vend.herokuapp.com/api/notifications",
+							"notification_url": "https://gustavomontiel-mp-exam-qr-vend.herokuapp.com/notifications",
 							"items": items
 						};
 

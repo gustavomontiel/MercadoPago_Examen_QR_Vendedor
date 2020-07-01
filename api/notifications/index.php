@@ -27,8 +27,6 @@ if(isset($notification['resource'])){$resource = $notification['resource'];$n=$n
 if(isset($notification['topic'])){$topic =$notification['topic'];$n=$n+1;}else{$topic ="";}
 
 
-
-
 if($n==2){
 	// ***********************************************
 	// GUARDAR LOS LA NOTIFICACIÓN EN ARCHIVO DE TEXTO

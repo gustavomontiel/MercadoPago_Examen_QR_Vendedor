@@ -76,10 +76,10 @@ $(document).ready(function () {
 
 						var orderJSON = {
 							"external_reference": external_reference,
-							"notification_url": "https://gustavomontiel-mp-exam-qr-vend.herokuapp.com/notifications",
+							"notification_url": "https://gustavomontiel-mp-exam-qr-vend.herokuapp.com/api/notifications/",
 							"items": items
 						};
-
+						// "notification_url": "http://mp-24819843.grupo-sim.com.ar/api/notifications/",
 						// Crea orden en base al external_id de la página
 
 						$.post("api/order/create/", { "external_id": external_id, "json": JSON.stringify(orderJSON) }, function (data) {

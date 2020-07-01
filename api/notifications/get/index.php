@@ -18,6 +18,6 @@ $url= "https://api.mercadopago.com/v1/payments/$lastResource";
 
 // Sustituye el método por su correspondiente: get, put, post, delete
 
-curl_call("GET",."$url?access_token=$access_token","");
+curl_call("GET","$url?access_token=$access_token","");
 
  ?>
